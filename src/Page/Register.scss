@@ -1,0 +1,90 @@
+.Model-div {
+
+    .ant-modal-content {
+        border-radius: 20px;
+    }
+
+    .ant-modal-content {
+        @media only screen and (min-width:700px) and (max-width:1700px) {
+            padding: 1% 5% !important;
+        }
+
+        .ant-modal-close {
+            background-color: #08428d;
+            height: 30px;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+}
+
+.Register-section {
+    text-align: left;
+
+    .img-div {
+        text-align: center;
+    }
+
+    .title-card {
+        margin-bottom: 15px;
+        margin-top: 10px;
+
+        .title-contents {
+            font-family: 'typo-round-bold', sans-serif;
+            margin: 0;
+        }
+    }
+
+    .hrline {
+        width: 89%;
+        opacity: 1;
+        margin-top: 4px;
+        border-top: 3px solid #08428d;
+    }
+
+    & .ant-form-item :where(.css-dev-only-do-not-override-ni1kz0).ant-select-outlined.ant-select-status-error:not(.ant-select-customize-input) .ant-select-selector {
+        border: 1px solid #ff4d4f !important;
+    }
+
+    & .ant-form-item :hover .ant-select-selector {
+        border-color: #4096ff !important;
+        box-shadow: 0 0 0 2px rgba(5, 145, 255, .1) !important;
+    }
+
+    & input {
+        height: 35px;
+        border-color: gray;
+    }
+
+    & .ant-select-single {
+        height: 35px;
+    }
+
+    & .ant-select-selector {
+        border-color: gray !important;
+    }
+
+    .select-status-error {
+        border: 1px solid #ff4d4f !important;
+        background: #ffffff;
+    }
+
+    & .ant-input-group-addon {
+        border-color: gray;
+    }
+
+    .ant-form .ant-row {
+        text-align: left;
+    }
+
+    .ant-form .btn-div {
+        text-align: center !important;
+    }
+
+    .register-btn {
+        height: 35px;
+        width: 65%;
+        background-color: #08428d;
+        color: white;
+    }
+}
